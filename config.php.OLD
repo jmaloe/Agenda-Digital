@@ -1,0 +1,31 @@
+<?php
+define('SQL_HOST',     'localhost');
+define('SQL_USER',     'uagenda');
+define('SQL_PASSWD',   'Ag4nD3Duc15,$');
+define('SQL_DATABASE', 'educonagenda');
+define('SQL_PREFIX',   'phpc_');
+define('SQL_TYPE',     'mysqli');
+?>
+
+usuario: jesus.malo
+
+clave: Us4aR1D3Sa15.
+
+ruta: desarrollo.idt.unach.mx
+
+Ruta Carpeta :  /var/www/html/desarrollos/cguv/htdocs/sitio/Agenda/
+
+Agenda Digital
+http://desarrollo.idt.unach.mx/Agenda
+
+ssh jesus.malo@desarrollo.idt.unach.mx
+
+pthreads requires ZTS, please re-compile PHP with ZTS enabled
+
+sudo add-apt-repository ppa:ondrej/php5
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install php-pear
+sudo apt-get install php5-dev
+sudo pecl install pthreads
